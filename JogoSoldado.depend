@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1650229928 source:c:\users\alice\documents\github\jogosoldado\jogo.c
+	<stdio.h>
+	"jogo.h"
+
+1650226799 c:\users\alice\documents\github\jogosoldado\jogo.h
+	<stdlib.h>
+	"listaCircular.h"
+	"utils.h"
+
+1649994312 c:\users\alice\documents\github\jogosoldado\listacircular.h
+
+1650225897 source:c:\users\alice\documents\github\jogosoldado\listacircular.c
+	<stdio.h>
+	<stdlib.h>
+	"listaCircular.h"
+
+1650226252 source:c:\users\alice\documents\github\jogosoldado\main.c
+	<stdio.h>
+	<locale.h>
+	"jogo.h"
+
+1650228214 c:\users\alice\documents\github\jogosoldado\utils.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1650229762 source:c:\users\alice\documents\github\jogosoldado\utils.c
+	"utils.h"
+
