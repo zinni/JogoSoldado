@@ -24,14 +24,17 @@ int menuPrincipal(){
     int opcao;
     system("cls");
 
+    mudar_cor(1);
     printf("\n\n               JOGO DOS SOLDADOS");
     printf("\n-------------------------------------------------");
+    mudar_cor(11);
     printf("\n\n\t1. Defina a quantidade de soldados.");
     printf("\n\t2. Defina o intervalo de contagem.");
     printf("\n\t3. Defina sua posição na fila.");
     printf("\n\t4. Roda o jogo passo a passo.");
     printf("\n\t5. Mostra resultado final.");
     printf("\n\t0. Sair do programa.");
+    mudar_cor(3);
     printf("\n\nEntre com a opção desejada: ");
     scanf("%d", &opcao);
     return opcao;
@@ -76,15 +79,18 @@ void menu_principal(void) {
 void roda_passos(int qtd_soldados, int passos_remover, int item_escolhido){
     Link node = cria_roda(qtd_soldados);
         system("cls");
+        mudar_cor(1);
         printf("\n\n   JOGO INICIADO COM OS SEGUINTES NÚMEROS");
         printf("\n-------------------------------------------------");
-        printf("\nTotal de soldados: %d", qtd_soldados);
+        mudar_cor(11);
+        printf("\n\nTotal de soldados: %d", qtd_soldados);
         printf("\nQuantos passos para remover: %d", passos_remover);
-        printf("\nSua posição da sorter é: %d\n", item_escolhido);
+        printf("\nSua posição da sorter é: %d\n\n", item_escolhido);
         getchar();
         aperte_enter();
     while(node != node->next) {
         system("cls");
+        mudar_cor(11);
         node = remove_soldado(node, passos_remover);
         imprime_roda(node);
         aperte_enter();
@@ -109,9 +115,11 @@ void roda_final(int qtd_soldados, int passos_remover, int item_escolhido){
     if(node->item == item_escolhido) {
         system("cls");
         imprime_sucesso("\n\nParabéns! Você se salvou!\n");
+        getchar();
         aperte_enter();
     } else {
         imprime_erro("\n\nMelhor sorte na próxima vez! =(\n");
+        getchar();
         aperte_enter();
     }
 }
