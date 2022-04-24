@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct node *Link;
 typedef struct node {
     int item;

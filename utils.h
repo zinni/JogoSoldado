@@ -3,13 +3,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+//Muda a cor por parametro.
 void mudar_cor(int cor);
 
+//Volta para cor padrão do console
 void cor_padrao();
 
+//Formatação padrão das mensagens de erro
 void imprime_erro(char erro[MSG_SIZE]);
 
+//Formatação padrão das mensagens de sucesso
 void imprime_sucesso(char sucesso[MSG_SIZE]);
 
+//Mensagem padrão para congelamento de tela
 void aperte_enter();

@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct node *Link;
 typedef struct node {
     int item;
@@ -15,4 +18,4 @@ Link remove_node(Link node);
 void imprime_roda(Link node);
 
 // Deleta soldado pelo sua posição na fila
-void remove_soldado(Link node, int valor)
+Link remove_soldado(Link node, int valor);

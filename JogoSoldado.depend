@@ -1,30 +1,30 @@
 # depslib dependency file v1.0
-1650229928 source:c:\users\alice\documents\github\jogosoldado\jogo.c
+1650278716 source:c:\users\alice\documents\github\jogosoldado\jogo.c
 	<stdio.h>
 	"jogo.h"
 
-1650226799 c:\users\alice\documents\github\jogosoldado\jogo.h
+1650827371 c:\users\alice\documents\github\jogosoldado\jogo.h
+	<stdio.h>
 	<stdlib.h>
+	<locale.h>
 	"listaCircular.h"
 	"utils.h"
 
-1649994312 c:\users\alice\documents\github\jogosoldado\listacircular.h
-
-1650225897 source:c:\users\alice\documents\github\jogosoldado\listacircular.c
+1650827371 c:\users\alice\documents\github\jogosoldado\listacircular.h
 	<stdio.h>
 	<stdlib.h>
+
+1650827371 source:c:\users\alice\documents\github\jogosoldado\listacircular.c
 	"listaCircular.h"
 
-1650226252 source:c:\users\alice\documents\github\jogosoldado\main.c
-	<stdio.h>
-	<locale.h>
+1650827371 source:c:\users\alice\documents\github\jogosoldado\main.c
 	"jogo.h"
 
-1650228214 c:\users\alice\documents\github\jogosoldado\utils.h
+1650827371 c:\users\alice\documents\github\jogosoldado\utils.h
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
 
-1650229762 source:c:\users\alice\documents\github\jogosoldado\utils.c
+1650827371 source:c:\users\alice\documents\github\jogosoldado\utils.c
 	"utils.h"
 
